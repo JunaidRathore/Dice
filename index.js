@@ -14,10 +14,10 @@ document.querySelectorAll("img")[1].setAttribute("src" , randonImageSource2);
 // Comparison
 if(randomNumber1>randomNumber2)
 {
-  document.querySelector("h1").innerHTML="🚩1st Player Won";
+  document.querySelector("h1").innerHTML="🚩" + p1name +" Won";
 }
 else if (randomNumber2>randomNumber1) {
-  document.querySelector("h1").innerHTML="2nd Player Won🚩"
+  document.querySelector("h1").innerHTML= p2name + " won 🚩";
 
 }
 else{
